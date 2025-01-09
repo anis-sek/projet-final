@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.general {
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    height: 400px;
+    background: black url(../img/CelineHeader.png);
+    border-style: url(../img/banCeline1.jpg);
+}
+
+
+header hgroup {
+    padding-left: 300px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    color: whitesmoke;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header hgroup a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+header hgroup h2 {
+    font-size: 50px;
+    font-style: italic;
+}
+
+.navbar-dark .nav-link {
+    color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    width: 150px;
+}
+
+.navbar-dark .nav-link:hover {
+    color: black;
+    background-color: whitesmoke;
+    font-weight: bold;
+}
+
+.btn-outline-light:hover {
+    color: black;
+    background-color: white;
+    border-color: white;
+}
+
+h3 {
+    font-size: 28px;
+    font-weight: bold;
+    padding: 0px 0px 25px 40px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.text-justify {
+    text-align: justify;
+    width: 60%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+img,
+p {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+p {
+    text-align: justify;
+}
+
+img {
+    border-radius: 8px;
+    display: block;
+    width: 400px;
+}
+
+.card-title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.video {
+    list-style-type: none;
+    /* Supprime les puces de la liste */
+    padding: 0;
+    /* Supprime l'espacement interne par défaut */
+    margin: 0;
+    /* Supprime la marge externe par défaut */
+    display: flex;
+    flex-wrap: wrap;
+    /* Permet aux éléments de passer à la ligne suivante */
+    justify-content: space-between;
+    /* Espacement entre les éléments */
+}
+
+.videoli {
+    flex: 1 1 calc(33.333% - 10px);
+    /* Chaque élément prend un tiers de la largeur moins les marges */
+    margin: 5px;
+    /* Réduit la marge autour de chaque élément */
+    box-sizing: border-box;
+    /* Inclut les marges et les bordures dans la largeur totale */
+}
+
+iframe {
+    width: 100%;
+    /* Assure que chaque iframe prend toute la largeur de son conteneur */
+    height: auto;
+    /* Ajuste la hauteur automatiquement */
+    aspect-ratio: 16 / 9;
+    /* Maintient le ratio d'aspect des vidéos */
+}
+
+.contact-container {
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    text-align: center;
+    align-content: center;
+}
+
+.contact-container h2 {
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.contact-form .form-group {
+    margin-bottom: 15px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.form-field {
+    flex: 1;
+    text-align: left;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333333;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.contact-form textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 15px;
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.contact-form button:hover {
+    background-color: gray;
+    color: #000000;
+    font-weight: bold;
+}
+
+.thank-you-message {
+    color: #555555;
+    font-size: 14px;
+}
+footer {
+    background-color: black;
+    color: #fff;
+    padding: 21px;
+    clear: both;
+    display: block;
+    height: 100px;
+}
+
+footer ul {
+    text-align: center;
+    font-size: x-small;
+}
+
+footer ul li {
+    display: inline-block;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+footer ul li a:hover {
+    color: bisque;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
